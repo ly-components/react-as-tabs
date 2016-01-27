@@ -1,0 +1,58 @@
+@theme: #16a085;
+
+.react-as-tabs {
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
+  .nav-list {
+    border-bottom: 1px solid #eee;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-color: #f9f9f9;
+    .nav {
+      float: left;
+      font-size: 16px;
+      color: #666;
+      min-width: 120px;
+      height: 40px;
+      line-height: 40px;
+      background-color: #fff;
+      text-align: center;
+      display: block;
+      border-right: 1px solid #eee;
+      border-top: 2px solid #fff;
+      cursor: pointer;
+      &:hover {
+        color: @theme;
+      }
+      &.active {
+        color: @theme;
+        border-top-color: @theme;
+        margin-bottom: -1px;
+        border-bottom: 1px solid #fff;
+      }
+      &.disabled {
+        background-color: #eee;
+        border-top-color: #eee;
+        cursor: not-allowed;
+        &:hover {
+          color: #666;
+        }
+      }
+    }
+    &:after {
+      content: '';
+      display: block;
+      height: 0;
+      visibility: hidden;
+      clear: both;
+    }
+  }
+  .panel {
+    padding: 20px;
+    min-height: 100px;
+    &.hidden {
+      display: none;
+    }
+  }
+}
