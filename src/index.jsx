@@ -1,6 +1,6 @@
 import './index.less';
 import React from 'react';
-import Panel from './Panel.jsx';
+import Panel from './panel.jsx';
 import Classnames from 'classnames';
 const noop = () => {};
 
