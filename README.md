@@ -35,7 +35,9 @@ import ReactAsTabs from 'react-as-tabs';
 [insert]: # (start:src/index.jsx|doc)
 | Name | Description | Type | Required | Default Value |
 | :--- | :----- | :--- | :---: | :---: |
-| content | content of element | String |  | `'Hello world'` |
+| active | Current panel name | String |  |  |
+| children | Panels | Node |  | `null` |
+| onChange | Callback when panel changes | Function |  | `() => {}` |
 [insert]: # (end:src/index.jsx)
 
 ### Panel
@@ -43,7 +45,11 @@ import ReactAsTabs from 'react-as-tabs';
 [insert]: # (start:src/panel.jsx|doc)
 | Name | Description | Type | Required | Default Value |
 | :--- | :----- | :--- | :---: | :---: |
-| content | content of element | String |  | `'Hello world'` |
+| children |  | Node |  | `null` |
+| disabled |  | Boolean |  | `false` |
+| href |  | String |  |  |
+| name |  | String | √ | `''` |
+| title |  | String | √ | `''` |
 [insert]: # (end:src/panel.jsx)
 
 ## Development
