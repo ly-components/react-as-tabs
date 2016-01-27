@@ -24,8 +24,20 @@ $ npm install --save react-as-tabs
 ## Usage
 
 ```javascript
-import ReactAsTabs from 'react-as-tabs';
-<ReactAsTabs />;
+import Tabs from 'react-as-tabs';
+const Panel = Tabs.Panel;
+<Tabs onChange={key => console.log(key)}>
+  <Panel name="nav1" title="Panel1">
+    content1
+  </Panel>
+  <Panel name="nav2" title="Panel2">
+    content2
+  </Panel>
+  <Panel disabled name="nav3" title="Panel3">
+    content3
+  </Panel>
+  <Panel href="https://github.com/LingyuCoder" name="nav4" title="Link" />
+</Tabs>
 ```
 
 ## Properties
