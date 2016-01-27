@@ -61,7 +61,7 @@ class ReactAsTabs extends React.Component {
           disabled: child.props.disabled,
           active: child.props.name === this.state.active
         });
-        navs.push(<li className={navClass} data-href={child.props.href} data-name={child.props.name} key={child.props.name} onClick={child.props.disabled ? noop : this._handleNavClick}>{child.props.title}</li>);
+        navs.push(<li className={navClass} data-href={child.props.href} data-name={child.props.name} key={child.props.name} onClick={child.props.disabled ? noop : this._handleNavClick} ref={`nav-${child.props.name}`}>{child.props.title}</li>);
       }
     });
     return navs;
@@ -81,15 +81,15 @@ class ReactAsTabs extends React.Component {
 ReactAsTabs.displayName = 'ReactAsTabs';
 ReactAsTabs.propTypes = {
   /**
-   * Current panel name
+   * current activated panel name
    */
   active: React.PropTypes.string,
   /**
-   * Panels
+   * panels
    */
   children: React.PropTypes.node,
   /**
-   * Callback when panel changes
+   * callback when panel changes
    */
   onChange: React.PropTypes.func
 };

@@ -35,9 +35,9 @@ import ReactAsTabs from 'react-as-tabs';
 [insert]: # (start:src/index.jsx|doc)
 | Name | Description | Type | Required | Default Value |
 | :--- | :----- | :--- | :---: | :---: |
-| active | Current panel name | String |  |  |
-| children | Panels | Node |  | `null` |
-| onChange | Callback when panel changes | Function |  | `() => {}` |
+| active | current activated panel name | String |  |  |
+| children | panels | Node |  | `null` |
+| onChange | callback when panel changes | Function |  | `() => {}` |
 [insert]: # (end:src/index.jsx)
 
 ### Panel
@@ -45,11 +45,11 @@ import ReactAsTabs from 'react-as-tabs';
 [insert]: # (start:src/panel.jsx|doc)
 | Name | Description | Type | Required | Default Value |
 | :--- | :----- | :--- | :---: | :---: |
-| children |  | Node |  | `null` |
-| disabled |  | Boolean |  | `false` |
-| href |  | String |  |  |
-| name |  | String | √ | `''` |
-| title |  | String | √ | `''` |
+| children | children nodes of this panel | Node |  | `null` |
+| disabled | whether this panel can be activated | Boolean |  | `false` |
+| href | if nav is a link, this is the url | String |  |  |
+| name | name of this panel, required | String | √ | `''` |
+| title | text of the nav, required | String | √ | `''` |
 [insert]: # (end:src/panel.jsx)
 
 ## Development

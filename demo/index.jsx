@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Tabs from '../src/index.jsx';
-
 const Panel = Tabs.Panel;
 
 ReactDOM.render(
