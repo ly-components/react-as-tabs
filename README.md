@@ -1,9 +1,9 @@
 # react-as-tabs
 
-[![Test coverage](https://img.shields.io/coveralls/ly-tools/react-as-tabs.svg?style=flat-square)](https://coveralls.io/r/ly-tools/react-as-tabs?branch=master)
-[![Build Status](https://travis-ci.org/ly-tools/react-as-tabs.png)](https://travis-ci.org/ly-tools/react-as-tabs)
-[![Dependency Status](https://david-dm.org/ly-tools/react-as-tabs.svg)](https://david-dm.org/ly-tools/react-as-tabs)
-[![devDependency Status](https://david-dm.org/ly-tools/react-as-tabs/dev-status.svg)](https://david-dm.org/ly-tools/react-as-tabs#info=devDependencies)
+[![Test coverage](https://img.shields.io/coveralls/ly-components/react-as-tabs.svg?style=flat-square)](https://coveralls.io/r/ly-components/react-as-tabs?branch=master)
+[![Build Status](https://travis-ci.org/ly-components/react-as-tabs.png)](https://travis-ci.org/ly-components/react-as-tabs)
+[![Dependency Status](https://david-dm.org/ly-components/react-as-tabs.svg)](https://david-dm.org/ly-components/react-as-tabs)
+[![devDependency Status](https://david-dm.org/ly-components/react-as-tabs/dev-status.svg)](https://david-dm.org/ly-components/react-as-tabs#info=devDependencies)
 [![NPM version](http://img.shields.io/npm/v/react-as-tabs.svg?style=flat-square)](http://npmjs.org/package/react-as-tabs)
 [![node](https://img.shields.io/badge/node.js-%3E=_4.0-green.svg?style=flat-square)](http://nodejs.org/download/)
 [![License](http://img.shields.io/npm/l/react-as-tabs.svg?style=flat-square)](LICENSE)
@@ -13,7 +13,7 @@
 
 ## Demo
 
-[Demo here](http://ly-tools.github.io/react-as-tabs/demo/index.html)
+[Demo here](http://ly-components.github.io/react-as-tabs/demo/index.html)
 
 ## Installation
 
@@ -36,7 +36,7 @@ const Panel = Tabs.Panel;
   <Panel disabled name="nav3" title="Panel3">
     content3
   </Panel>
-  <Panel href="https://github.com/ly-tools" name="nav4" title="Link" />
+  <Panel href="https://github.com/ly-components" name="nav4" title="Link" />
 </Tabs>
 ```
 
@@ -66,7 +66,7 @@ const Panel = Tabs.Panel;
 
 ## Development
 
-[Online test page here](http://ly-tools.github.io/react-as-tabs/test/test.html)
+[Online test page here](http://ly-components.github.io/react-as-tabs/test/test.html)
 
 ```bash
 $ npm run dev # startup local dev server

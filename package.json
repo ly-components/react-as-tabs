@@ -53,15 +53,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LingyuCoder/react-as-tabs.git"
+    "url": "git+https://github.com/ly-components/react-as-tabs.git"
   },
   "keywords": [
     "react"
   ],
   "bugs": {
-    "url": "https://github.com/LingyuCoder/react-as-tabs/issues"
+    "url": "https://github.com/ly-components/react-as-tabs/issues"
   },
-  "homepage": "https://github.com/LingyuCoder/react-as-tabs#readme",
+  "homepage": "https://github.com/ly-components/react-as-tabs#readme",
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
   },
